@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 .conteinar-size{
@@ -58,4 +59,221 @@ figure img{
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     color: #707070;
+}
+
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FEEAE9;
+    align-items: center;
+    max-width: 1240px;
+    margin: 65px auto;
+    border-radius: 10px;
+}
+.banner-content{
+    padding-left: 40px;
+}
+.banner-content h1{
+    font-size: 56px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: #1F1F1F;
+}
+
+.banner-content p{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    line-height: 26px;
+    width: 450px;
+    color: #4E4E4E;
+}
+.banner-content span{
+    display: block;
+    font-size: 41px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #FF136F;
+}
+.banner-content button{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgba(255, 19, 111, 100%);
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+.banner-img img{
+    width: 402px;
+    height: 378px;
+    padding: 40px 60px 40px 0px;
+}
+
+
+/* categories section style */
+
+.categories{
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.categories h1{
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: #1F1F1F;
+    margin-bottom: 22px;
+}
+
+.categories-lists{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.categories-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, #FF9C35 , #FFD019);
+    border-radius: 15px;
+    width: 360px;
+    height: 120px;
+}
+
+.categories-list h3{
+    font-size: 2.01rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding-left: 45px;
+}
+
+.categories-list img{
+    padding: 15px 45px 15px 0;
+    height: 100%;
+}
+
+/* products section */
+.products-section{
+    background-color: #F4F4F4;
+}
+.shoes-collection{
+    max-width: 1128px;
+    margin: 60px auto 70px;
+    padding: 30px 0 70px 0;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.title h2{
+    font-size: 2.01rem;
+    font-weight: 600;
+    color: #1F1F1F;
+
+}
+.title span{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #Ff9D00;
+}
+
+.card-conteiner{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.card{
+    width: 360px;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 15px 10px;
+    border-radius: 19px;
+}
+
+.card img{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+.card h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1F1F1F;
+    margin-bottom: 16px;
+}
+
+.card p{
+    line-height: 26px;
+    color: #4E4E4E;
+    margin-bottom: 16px;
+}
+
+.card .price{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #1F1F1F;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.card button{
+    background-color: #000000;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+/* footer section */
+.footer-content{
+    background-color: #FFF2F1;
+    max-width: 1212px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 150px 265px;
+    border-radius: 10px;
+}
+
+.footer-content h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #1F1F1F;
+}
+.footer-content p{
+    font-weight: 500;
+    color: #707070;
+}
+
+.footer-content input{
+    font-size: 1.5rem;
+    color: #CCCCCC;
+    border: none;
+    background-color: #FFFFFF;
+    height: 70px;
+    padding: 10px 30px;
+    width: calc(683px - 157px);
+    outline: none;
+}
+.footer-content form{
+    display: flex;
+    gap: 0;
+    align-items: center;
+    margin-top: 16px;
+}
+.footer-content button{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, #FF589B , #FF136F);
+    height: 70px;
+    width: 150px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    margin-left: 0;
 }
